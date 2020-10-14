@@ -1,22 +1,22 @@
 {
     ["arcLength"] = 360,
     ["controlledChildren"] = {
-        [1] = "Moonfire",
-        [2] = "Sunfire",
-        [3] = "Starfall",
+        [1] = "Starsurge - Castable",
+        [2] = "Starfall - Castable",
+        [3] = "New Moon",
+        [4] = "Fury of Elune",
+        [5] = "Convoke the Spirits - Castable",
+        [6] = "Celestial Alignment -  - Castable",
+        [7] = "Force of Nature",
     },
     ["borderBackdrop"] = "Blizzard Tooltip",
-    ["xOffset"] = 119.99975585938,
-    ["preferToUpdate"] = false,
-    ["yOffset"] = 50,
-    ["gridType"] = "RD",
-    ["borderColor"] = {
-        [1] = 0,
-        [2] = 0,
-        [3] = 0,
-        [4] = 1,
+    ["authorOptions"] = {
     },
-    ["space"] = 2,
+    ["preferToUpdate"] = false,
+    ["yOffset"] = -150,
+    ["anchorPoint"] = "CENTER",
+    ["fullCircle"] = true,
+    ["rowSpace"] = 1,
     ["actions"] = {
         ["start"] = {
         },
@@ -47,10 +47,10 @@
         ["activeTriggerMode"] = -10,
     },
     ["columnSpace"] = 1,
-    ["radius"] = 200,
-    ["useLimit"] = false,
+    ["internalVersion"] = 37,
+    ["selfPoint"] = "LEFT",
     ["align"] = "CENTER",
-    ["rotation"] = 0,
+    ["stagger"] = 0,
     ["load"] = {
         ["talent2"] = {
             ["multi"] = {
@@ -65,12 +65,7 @@
             ["multi"] = {
             },
         },
-        ["ingroup"] = {
-            ["multi"] = {
-            },
-        },
-        ["use_class"] = "true",
-        ["role"] = {
+        ["pvptalent"] = {
             ["multi"] = {
             },
         },
@@ -78,7 +73,12 @@
             ["multi"] = {
             },
         },
-        ["pvptalent"] = {
+        ["role"] = {
+            ["multi"] = {
+            },
+        },
+        ["use_class"] = "true",
+        ["faction"] = {
             ["multi"] = {
             },
         },
@@ -90,7 +90,7 @@
             ["multi"] = {
             },
         },
-        ["faction"] = {
+        ["ingroup"] = {
             ["multi"] = {
             },
         },
@@ -99,18 +99,47 @@
             },
         },
     },
-    ["borderInset"] = 0,
+    ["borderColor"] = {
+        [1] = 0,
+        [2] = 0,
+        [3] = 0,
+        [4] = 1,
+    },
     ["backdropColor"] = {
         [1] = 1,
         [2] = 1,
         [3] = 1,
         [4] = 0.5,
     },
-    ["authorOptions"] = {
-    },
+    ["space"] = 2,
     ["animate"] = false,
-    ["selfPoint"] = "LEFT",
+    ["gridType"] = "RD",
     ["scale"] = 1,
+    ["rotation"] = 0,
+    ["border"] = false,
+    ["borderEdge"] = "1 Pixel",
+    ["regionType"] = "dynamicgroup",
+    ["borderSize"] = 2,
+    ["sort"] = "none",
+    ["useLimit"] = false,
+    ["constantFactor"] = "RADIUS",
+    ["ignoreOptionsEventErrors"] = true,
+    ["config"] = {
+    },
+    ["borderOffset"] = 16,
+    ["borderInset"] = 0,
+    ["tocversion"] = 90002,
+    ["id"] = "Druid - Cooldowns",
+    ["grow"] = "RIGHT",
+    ["frameStrata"] = 1,
+    ["anchorFrameType"] = "SCREEN",
+    ["gridWidth"] = 5,
+    ["uid"] = "xdOKhsAVB2i",
+    ["limit"] = 5,
+    ["xOffset"] = 120,
+    ["conditions"] = {
+    },
+    ["radius"] = 200,
     ["animation"] = {
         ["start"] = {
             ["type"] = "none",
@@ -131,29 +160,4 @@
             ["easeType"] = "none",
         },
     },
-    ["border"] = false,
-    ["borderEdge"] = "1 Pixel",
-    ["regionType"] = "dynamicgroup",
-    ["borderSize"] = 2,
-    ["sort"] = "none",
-    ["stagger"] = 0,
-    ["internalVersion"] = 36,
-    ["constantFactor"] = "RADIUS",
-    ["config"] = {
-    },
-    ["borderOffset"] = 16,
-    ["grow"] = "RIGHT",
-    ["tocversion"] = 80300,
-    ["id"] = "Druid - DoTs",
-    ["gridWidth"] = 5,
-    ["frameStrata"] = 1,
-    ["anchorFrameType"] = "SCREEN",
-    ["limit"] = 5,
-    ["uid"] = "qw9V9IC1sZZ",
-    ["ignoreOptionsEventErrors"] = true,
-    ["fullCircle"] = true,
-    ["conditions"] = {
-    },
-    ["anchorPoint"] = "CENTER",
-    ["rowSpace"] = 1,
 }
