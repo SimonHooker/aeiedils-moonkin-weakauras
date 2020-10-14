@@ -3,20 +3,17 @@
     ["controlledChildren"] = {
         [1] = "Moonfire",
         [2] = "Sunfire",
-        [3] = "Starfall",
+        [3] = "Stellar Flare",
+        [4] = "Starfall",
     },
     ["borderBackdrop"] = "Blizzard Tooltip",
-    ["xOffset"] = 119.99975585938,
+    ["authorOptions"] = {
+    },
     ["preferToUpdate"] = false,
     ["yOffset"] = 50,
-    ["gridType"] = "RD",
-    ["borderColor"] = {
-        [1] = 0,
-        [2] = 0,
-        [3] = 0,
-        [4] = 1,
-    },
-    ["space"] = 2,
+    ["anchorPoint"] = "CENTER",
+    ["fullCircle"] = true,
+    ["rowSpace"] = 1,
     ["actions"] = {
         ["start"] = {
         },
@@ -48,69 +45,6 @@
     },
     ["columnSpace"] = 1,
     ["radius"] = 200,
-    ["useLimit"] = false,
-    ["align"] = "CENTER",
-    ["rotation"] = 0,
-    ["load"] = {
-        ["talent2"] = {
-            ["multi"] = {
-            },
-        },
-        ["talent"] = {
-            ["multi"] = {
-            },
-        },
-        ["class"] = {
-            ["single"] = "DRUID",
-            ["multi"] = {
-            },
-        },
-        ["ingroup"] = {
-            ["multi"] = {
-            },
-        },
-        ["use_class"] = "true",
-        ["role"] = {
-            ["multi"] = {
-            },
-        },
-        ["difficulty"] = {
-            ["multi"] = {
-            },
-        },
-        ["pvptalent"] = {
-            ["multi"] = {
-            },
-        },
-        ["spec"] = {
-            ["multi"] = {
-            },
-        },
-        ["race"] = {
-            ["multi"] = {
-            },
-        },
-        ["faction"] = {
-            ["multi"] = {
-            },
-        },
-        ["size"] = {
-            ["multi"] = {
-            },
-        },
-    },
-    ["borderInset"] = 0,
-    ["backdropColor"] = {
-        [1] = 1,
-        [2] = 1,
-        [3] = 1,
-        [4] = 0.5,
-    },
-    ["authorOptions"] = {
-    },
-    ["animate"] = false,
-    ["selfPoint"] = "LEFT",
-    ["scale"] = 1,
     ["animation"] = {
         ["start"] = {
             ["type"] = "none",
@@ -131,29 +65,96 @@
             ["easeType"] = "none",
         },
     },
+    ["align"] = "CENTER",
+    ["rotation"] = 0,
+    ["load"] = {
+        ["talent2"] = {
+            ["multi"] = {
+            },
+        },
+        ["talent"] = {
+            ["multi"] = {
+            },
+        },
+        ["class"] = {
+            ["single"] = "DRUID",
+            ["multi"] = {
+            },
+        },
+        ["pvptalent"] = {
+            ["multi"] = {
+            },
+        },
+        ["difficulty"] = {
+            ["multi"] = {
+            },
+        },
+        ["role"] = {
+            ["multi"] = {
+            },
+        },
+        ["use_class"] = "true",
+        ["faction"] = {
+            ["multi"] = {
+            },
+        },
+        ["spec"] = {
+            ["multi"] = {
+            },
+        },
+        ["race"] = {
+            ["multi"] = {
+            },
+        },
+        ["ingroup"] = {
+            ["multi"] = {
+            },
+        },
+        ["size"] = {
+            ["multi"] = {
+            },
+        },
+    },
+    ["borderColor"] = {
+        [1] = 0,
+        [2] = 0,
+        [3] = 0,
+        [4] = 1,
+    },
+    ["backdropColor"] = {
+        [1] = 1,
+        [2] = 1,
+        [3] = 1,
+        [4] = 0.5,
+    },
+    ["space"] = 2,
+    ["animate"] = false,
+    ["gridType"] = "RD",
+    ["scale"] = 1,
+    ["useLimit"] = false,
     ["border"] = false,
     ["borderEdge"] = "1 Pixel",
     ["regionType"] = "dynamicgroup",
     ["borderSize"] = 2,
     ["sort"] = "none",
     ["stagger"] = 0,
-    ["internalVersion"] = 36,
     ["constantFactor"] = "RADIUS",
+    ["ignoreOptionsEventErrors"] = true,
     ["config"] = {
     },
     ["borderOffset"] = 16,
-    ["grow"] = "RIGHT",
-    ["tocversion"] = 80300,
+    ["borderInset"] = 0,
+    ["tocversion"] = 90002,
     ["id"] = "Druid - DoTs",
-    ["gridWidth"] = 5,
+    ["grow"] = "RIGHT",
     ["frameStrata"] = 1,
     ["anchorFrameType"] = "SCREEN",
+    ["gridWidth"] = 5,
+    ["uid"] = "0(ZHcNz87NQ",
     ["limit"] = 5,
-    ["uid"] = "qw9V9IC1sZZ",
-    ["ignoreOptionsEventErrors"] = true,
-    ["fullCircle"] = true,
+    ["xOffset"] = 119.99975585938,
     ["conditions"] = {
     },
-    ["anchorPoint"] = "CENTER",
-    ["rowSpace"] = 1,
+    ["internalVersion"] = 37,
+    ["selfPoint"] = "LEFT",
 }
